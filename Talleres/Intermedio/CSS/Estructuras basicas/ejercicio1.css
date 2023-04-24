@@ -1,0 +1,7 @@
+.green:focus {
+  color: green;
+}
+
+p:hover {
+  color: red;
+}

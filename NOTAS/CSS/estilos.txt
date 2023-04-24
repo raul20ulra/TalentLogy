@@ -1,0 +1,37 @@
+ejemplos de estilos, colores y modificaciones que puedes aplicar en CSS:
+
+Estilos:
+
+font-size: Tamaño de la fuente (en píxeles, em, rem, etc).
+font-weight: Grosor de la fuente (normal, bold, etc.).
+text-align: Alineación del texto (left, right, center, justify).
+text-decoration: Decoración del texto (none, underline, line-through, etc.).
+background-color: Color de fondo.
+border: Borde del elemento (ancho, estilo y color).
+margin: Margen exterior del elemento (top, right, bottom, left).
+padding: Relleno interior del elemento (top, right, bottom, left).
+width: Ancho del elemento (en píxeles, em, rem, etc.).
+height: Altura del elemento (en píxeles, em, rem, etc.).
+Colores:
+
+color: Color del texto.
+background-color: Color de fondo.
+border-color: Color del borde.
+opacity: Opacidad del elemento (0 a 1).
+rgba: Color con transparencia (rojo, verde, azul y alpha).
+Modificaciones:
+
+-transform: Transformación del elemento (rotate, scale, translate, etc.).
+-transition: Transición suave entre estados de un elemento (duración y 
+propiedad a transicionar).
+-animation: Animación de un elemento (nombre, duración, retraso, dirección, etc.).
+-box-shadow: Sombra del elemento (desplazamiento en x, desplazamiento en y,
+ difuminado, tamaño y color).
+
+
+Es importante recordar que CSS tiene una amplia variedad de propiedades
+ que pueden ser aplicadas en los diferentes elementos HTML, permitiendo
+  modificar la presentación y estilo de una página web de manera significativa.
+
+
+

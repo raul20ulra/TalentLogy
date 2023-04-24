@@ -1,0 +1,15 @@
+.titulo {
+font-family: arial ;
+font-size: 14px;
+background-color: grey;
+padding: 8px;
+}
+.body{
+font-style: italic;
+padding: 8px
+
+}
+.foot{
+font-style: normal;
+background-color: rgb(238, 235, 235) ;
+}

@@ -1,0 +1,56 @@
+/* Definición de un selector */
+selector {
+  propiedad: valor;
+  /* Establece la propiedad con un valor */
+}
+
+/* Agrupación de selectores */
+selector1, selector2 {
+  propiedad: valor;
+  /* Establece la propiedad con un valor para ambos selectores */
+}
+
+/* Selector de clase */
+.clase {
+  propiedad: valor;
+  /* Establece la propiedad con un valor para todos los elementos que tengan la clase "clase" */
+}
+
+/* Selector de ID */
+#identificador {
+  propiedad: valor;
+  /* Establece la propiedad con un valor para el elemento que tenga el ID "identificador" */
+}
+
+/* Selector de hijo */
+padre hijo {
+  propiedad: valor;
+  /* Establece la propiedad con un valor para el elemento "hijo" que sea hijo del elemento "padre" */
+}
+
+/* Selector de descendiente */
+ancestro descendiente {
+  propiedad: valor;
+  /* Establece la propiedad con un valor para el elemento "descendiente" que sea descendiente del elemento "ancestro" */
+}
+
+/* Selector de atributo */
+selector[atributo="valor"] {
+  propiedad: valor;
+  /* Establece la propiedad con un valor para los elementos seleccionados que tengan el atributo "atributo" con el valor "valor" */
+}
+
+/* Selector de pseudo-clase */
+selector:pseudo-clase {
+  propiedad: valor;
+  /* Establece la propiedad con un valor para los elementos seleccionados que cumplan con la pseudo-clase "pseudo-clase" */
+}
+
+/* Selector de pseudo-elemento */
+selector::pseudo-elemento {
+  propiedad: valor;
+  /* Establece la propiedad con un valor para el pseudo-elemento "pseudo-elemento" dentro de los elementos seleccionados */
+}
+
+/* Comentarios */
+/* Comentarios son textos que no se ejecutan y sirven para documentar el código CSS */

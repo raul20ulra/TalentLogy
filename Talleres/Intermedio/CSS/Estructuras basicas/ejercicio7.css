@@ -1,0 +1,9 @@
+.texto:focus {
+  font-family: Helvetica;
+  color: green;
+  background-color: red;
+  text-transform: uppercase;
+}
+
+
+/* align-items: center; */

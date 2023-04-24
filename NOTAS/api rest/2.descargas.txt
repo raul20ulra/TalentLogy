@@ -1,0 +1,87 @@
+*paquetes de instalacion(en la terminal):
+npm init -y
+npm i bcryptjs cookie-parser cors dotenv express express-validator jsonwebtoken mongoose
+npm i -D nodemon
+
+
+
+*codigos a modificar en el package.json:
+
+    "type": "module"       (debajo del nombre del archivo)
+
+    
+    
+    (debajo del boton debug)
+    "scripts": {
+        "dev": "nodemon .",
+        "start": "node index.js"
+    }
+
+
+-- .env 
+En una REST API, un archivo .env es un archivo de configuración que se 
+utiliza para almacenar variables de entorno que se necesitan para la aplicación. 
+Las variables de entorno son valores que se utilizan para configurar la aplicación 
+y pueden incluir información confidencial como claves de API, contraseñas y otras 
+credenciales.
+
+*tipos:
+
+-- URI_MONGO=
+
+es la dirección URL de la base de datos MongoDB que la aplicación utilizará para 
+almacenar y recuperar datos. MongoDB es una base de datos NoSQL muy popular que se 
+utiliza en muchas aplicaciones web y móviles para almacenar datos estructurados y 
+no estructurados.
+
+La URI_Mongo se utiliza para establecer la conexión entre la aplicación y la base 
+de datos MongoDB. En una aplicación de REST API, la URI_Mongo se suele especificar 
+en el archivo de configuración .env o en un archivo de configuración similar.
+/ejemplo:
+mongodb://usuario:contraseña@direccion_mongodb:puerto/nombre_basedatos
+
+-- JWT_SECRET=
+es una variable de entorno utilizada para almacenar la clave secreta que se utilizará 
+para firmar y verificar los tokens JSON Web (JWT).
+
+Los tokens JWT se utilizan en aplicaciones web y móviles para autenticar y autorizar 
+usuarios y permitir el acceso a recursos protegidos en la aplicación. La clave secreta 
+se utiliza para firmar el token JWT y garantizar su autenticidad.
+/ejemplo:
+JWT_SECRET=mi_clave_secreta_super_segura
+
+-- JWT_REFRESH=
+es una variable de entorno que se utiliza para almacenar la clave secreta que se utilizará
+ para firmar y verificar los tokens de actualización de JWT (JSON Web Tokens).
+
+Los tokens de actualización de JWT se utilizan en aplicaciones web y móviles para 
+renovar los tokens de acceso cuando caducan. Estos tokens de actualización son más 
+duraderos que los tokens de acceso y se utilizan para obtener un nuevo token de acceso 
+sin tener que volver a autenticar al usuario.
+/ejemplo:
+JWT_REFRESH=mi_clave_secreta_para_tokens_de_actualizacion
+
+-- MODO=developer
+developer es una variable de entorno que se utiliza para indicar el entorno en el que 
+se está ejecutando la aplicación. En este caso, el valor "developer" indica que la aplicación 
+está en modo de desarrollo.
+
+El modo de desarrollo se utiliza para probar y depurar la aplicación antes de lanzarla en 
+producción. En este modo, la aplicación puede mostrar información adicional de depuración 
+
+en la consola o en los registros de la aplicación. También se pueden habilitar características 
+específicas para desarrolladores, como la recarga automática de la aplicación después de realizar 
+cambios en el código.
+
+-- ORIGIN1=
+
+puede referirse a una variable de entorno que se utiliza para especificar el origen 
+(o dominio) permitido para las solicitudes que se realizan a la API.
+
+El origen se utiliza para determinar si una solicitud realizada desde un dominio 
+específico debe ser permitida o denegada por la API. En otras palabras, el servidor 
+de la API verifica que el origen de la solicitud coincida con el valor permitido en 
+la variable de entorno ORIGIN1 antes de permitir que la solicitud continúe.
+
+ejemplo:
+ORIGIN1=http://localhost:3000

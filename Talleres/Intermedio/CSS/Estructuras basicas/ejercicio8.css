@@ -1,0 +1,6 @@
+p {
+    background: linear-gradient(pink, rgb(255, 200, 0));
+    margin: 20px;
+    padding: 14px;
+    border-radius: 20px;
+}
