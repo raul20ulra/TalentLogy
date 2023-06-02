@@ -1,6 +1,6 @@
-fecha de comienzo: 02-02-2023
+Start date: 02-02-2023
 
-TEMAS:
+TOPICS:
 
 *API Rest 
 
@@ -10,9 +10,9 @@ TEMAS:
 
 *Node JS
 
--Manejo del doom
+-Dom
 
--Manejo de boostrap
+-Boostrap
 
 *CSS
 
@@ -20,7 +20,7 @@ TEMAS:
 
 *JavaScript
 
-*Logica de programacion
+*Programmation logic
 
 
 
